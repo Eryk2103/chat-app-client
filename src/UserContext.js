@@ -4,10 +4,12 @@ const UserContext = createContext();
 
 export const UserProvider = (props) => {
     const [username, setUsername] = useState(sessionStorage.getItem('user'));
-    const [token, setToken] = useState(sessionStorage.getItem('token'))
+    const [token, setToken] = useState(sessionStorage.getItem('token'));
+
     const addUser = (user, token) => {
         sessionStorage.setItem('user', user)
         setUsername(user);
+        sessionStorage.setItem('token', token)
         setToken(token);
     }
     return(

@@ -15,24 +15,10 @@ export default function Register() {
     setDisplayPasswordError(true);
     return false;
   };
-  const validateUsername = async () => {
-    const res = await fetch(process.env.REACT_APP_API + "/user/exists", {
-      method: "POST",
-      body: JSON.stringify({
-        username: username.current.value,
-      }),
-      headers: { "Content-type": "application/json" },
-    });
-    const data = await res.json();
-    if (data.exists === "false") {
-      return true;
-    }
-    setDisplayUsernameError(true);
-    return false;
-  };
+  
   const register = async (event) => {
     event.preventDefault();
-    if (validatePassword() || validateUsername()) {
+    if (validatePassword()) {
       const res = await fetch(process.env.REACT_APP_API + "/user/register", {
         method: "POST",
         body: JSON.stringify({
@@ -44,7 +30,7 @@ export default function Register() {
       if (res.status === 201) {
         navigate("/login");
       } else {
-        //redirect to error page
+        setDisplayUsernameError(true);
       }
     }
   };
