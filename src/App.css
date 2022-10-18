@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.column{
+  flex-direction: column;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-auth{
+  height: 100vh;
+  font-size: 1.3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-primary{
+  background-color: #1e75f7;
+  font-size: 1em;
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: .4em .8em;
+  margin: 1rem;
+}
+.btn-primary:hover{
+  cursor: pointer;
+}
+.input-text{
+  font-size: 1em;
+  width:100%;
+  border: none;
+}
+input:focus{
+  border: none;
+  outline: none;
+}
+.input-wrapper{
+  display: block;
+  margin: .3rem;
+  padding: .5em;
+  border-radius: .3rem;
+  border: 1px solid gray;
+}.input-wrapper:focus-within{
+  border: black 2px solid;
+}
+.link{
+  font-size: .8em;
+  
+}
+.link:hover{
+  cursor: pointer;
+}
+.page{
+  display: flex;
+  height: 100vh;
+}
+.card-list{
+  max-width: 30%;
+  border-right: 1px solid rgb(0,0,0,0.2);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title{
+  margin: .8rem 2rem;
+  font-size: 1.5em;
+}
+.input-round{
+  width: 100%;
+  border: none;
+  background-color: rgb(0,0,0,0);
+}
+.input-round-wrapper{
+  display: block;
+  margin: .3rem;
+  padding: .3em .5em;
+  border-radius: 1rem;
+  background-color: rgb(0,0,0,0.1);
+
+}
+.dummy{
+  flex-grow: 1;
+}
+.scroll{
+  overflow-y: auto; 
+}
+.w-100{
+  width: 100%
+}
+.form-error{
+  font-size: 1em;
+    color: #d13d32;
+    margin: .3rem;
+}
+.flex-grow{
+  flex-grow: 1;
+}
+.card-main{
+  display: flex;
+  flex-direction: column;
+  
+}
+.btn-send{
+  background-color: #1e75f7;
+  font-size: 1em;
   color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: .4em 2em;
+  margin: .3rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-send:hover{
+  cursor: pointer;
 }

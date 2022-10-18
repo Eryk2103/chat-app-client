@@ -1,0 +1,11 @@
+.list-item{
+    margin: .1rem;
+    border-radius: 2em;
+}
+.list-item:hover{
+    background-color: rgb(0,0,0,0.3);
+    cursor: pointer;
+}
+.list-item p{
+    padding: .4em 1em;
+}

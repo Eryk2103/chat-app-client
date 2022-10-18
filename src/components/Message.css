@@ -1,0 +1,19 @@
+.message{
+    background-color: rgb(0,0,0,0.4);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.message:nth-child(2n){
+    background-color: rgb(0,0,0,0.6);
+}
+.message:first-child{
+    border-radius: .5em .5em 0 0;
+}
+.message:last-child{
+    border-radius:  0 0 .5em .5em;
+}
+.message-user{
+    font-style: italic;
+    text-align: end;
+}

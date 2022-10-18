@@ -1,0 +1,7 @@
+.message-form{
+    display: flex;
+    width: 100%;
+}
+.message-list{
+    padding: 0 1em;
+}

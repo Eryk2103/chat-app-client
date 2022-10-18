@@ -1,0 +1,15 @@
+.form-auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form-auth-error{
+    font-size: .8em;
+    color: #d13d32;
+    margin: .3rem;
+}
+.form-container{
+   min-width: 60%;
+}
