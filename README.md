@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## Register page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ To register user must enter unique username and password thats atleast 4 charecters long. After successful register user gets redirected to login page.
+ 
+![image](https://user-images.githubusercontent.com/75088475/196391106-a0b30461-3c34-4c50-b264-1107c1c0ab15.png)
 
-## Available Scripts
+## Login page
 
-In the project directory, you can run:
+To login user must enter valid username and password. If credentials are invalid, error message is displayed.
 
-### `npm start`
+![image](https://user-images.githubusercontent.com/75088475/196391828-b05a6b8d-9203-4163-9c16-ff7b240903ec.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Main page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Selecting chatroom to join
 
-### `npm test`
+User can join specific chatroom by clicking on its name displayed in a list. Search bar lets users quickly find specific chatroom they are looking for.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/75088475/196393805-48961af3-efe5-4407-a90b-a9eb7ae53333.png)
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/75088475/196393882-fc518b33-43d8-49c7-a078-40aa0837a909.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Create new chatroom
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After clicking the create button a modal window is displayed, where user can enter the chatrooms name. If the entered text is unique chatroom is created. Otherwise an error message is displayed. 
+![image](https://user-images.githubusercontent.com/75088475/196395704-613e09eb-6718-483b-9940-34197b13e145.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Sending and displaying messages
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+User can send any message by typing it into the input and pressing enter or send button. Messages are emitted in real time, so users in the same room recieve messages in the same time.
+![image](https://user-images.githubusercontent.com/75088475/196394685-a6e4c2ec-3d3a-40fd-8230-87a496518453.png)
