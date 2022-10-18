@@ -53,7 +53,7 @@ After clicking the create button a modal window is displayed, where user can ent
 
 ### Sending and displaying messages
 
-User can send any message by typing it into the input and pressing enter or send button. Messages are emitted in real time, so users in the same room recieve messages in the same time.
+User can send any message by typing it into the input and pressing enter or send button. Messages are emitted using websockets, so users in the same room recieve messages in the same time.
 
 
 ![image](https://user-images.githubusercontent.com/75088475/196399567-cacb8e48-70d3-46fb-980a-64d98f81254c.png)
