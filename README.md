@@ -2,6 +2,7 @@
 http://chat-web-app.s3-website.eu-west-3.amazonaws.com/login \
 This is a react/node.js web app that lets users join chatrooms and comunicate with eachother.
 
+backend repo: https://github.com/Eryk2103/chat-app-server
 # Tech-stack
 
 ### MERN
