@@ -56,4 +56,5 @@ After clicking the create button a modal window is displayed, where user can ent
 User can send any message by typing it into the input and pressing enter or send button. Messages are emitted in real time, so users in the same room recieve messages in the same time.
 
 
-![image](https://user-images.githubusercontent.com/75088475/196394685-a6e4c2ec-3d3a-40fd-8230-87a496518453.png)
+![image](https://user-images.githubusercontent.com/75088475/196399567-cacb8e48-70d3-46fb-980a-64d98f81254c.png)
+
