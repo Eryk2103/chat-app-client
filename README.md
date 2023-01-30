@@ -5,7 +5,7 @@ This is a react/node.js web app that lets users join chatrooms and comunicate wi
 backend repo: https://github.com/Eryk2103/chat-app-server
 # Tech-stack
 
-### MERN
+### Tech stack
 - react
 - node.js
 - express.js
@@ -64,14 +64,5 @@ User can send any message by typing it into the input and pressing enter or send
 
 ![image](https://user-images.githubusercontent.com/75088475/196399567-cacb8e48-70d3-46fb-980a-64d98f81254c.png)
 
-# Features im working on
 
-## Display users in chatroom
-Display list of users that are currently in the chatroom. Show number of users beside chatroom name.
-
-## Add moderation
-Add ability to ban users by the user who created the chatroom
-
-## Improve Authentication
-Implement jwt refresh tokens. Curently tokens have expiration time set to 60 minutes. 
 
