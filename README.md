@@ -13,11 +13,6 @@ backend repo: https://github.com/Eryk2103/chat-app-server
 - socket.io (websocket connections)
 - mongoose (ODM for mongodb)
 
-### Hosting
-- AWS EC2 - backend
-- AWS s3 - frontend
-
-
 # App functionality
 
 
